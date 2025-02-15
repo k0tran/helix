@@ -4188,3 +4188,12 @@ soft-wrap = { enable = true }
 [[grammar]]
 name = "ink"
 source = { git = "https://github.com/rhizoome/tree-sitter-ink", rev = "8486e9b1627b0bc6b2deb9ee8102277a7c1281ac" }
+
+[[language]]
+name = "rpmspec"
+scope = "source.spec"
+file-types = ["spec"]
+
+[[grammar]]
+name = "rpmspec"
+source = { git = "https://gitlab.com/cryptomilk/tree-sitter-rpmspec", rev = "a7b1cff462c2069b005a41848f462d79d67c738f" }
